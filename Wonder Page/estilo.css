@@ -1,0 +1,96 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  background-image: url("Fondo.png");
+  background-size: cover;
+  height: 400px;
+}
+header .top {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header nav .left {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  font-size: 15px;
+  display: inline-block;
+  width: 40%;
+}
+
+header nav .right {
+  font-size: 12px;
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  font-size: 14px;
+}
+
+header nav .right a {
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+  margin-left: 10px;
+}
+
+header h1 {
+  padding-top: 100px;
+  padding-bottom: 0px;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+
+header h3 {
+  padding-top: 5px;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+header button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: rgb(254, 0, 110);
+  border-radius: 50px;
+  color: white;
+  border: none;
+  font-size: 10px;
+}
+section {
+    text-align: center;
+    padding-top: 50px;
+}
+
+section .article {
+    vertical-align: middle;    /* Alineación vertical */
+    text-align: left;
+    display: inline-block;
+    width: 40%;                /* Un poco más ancho */
+    padding-left: 58px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+}
+
+section .article h2 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+/* La imagen fuera del artículo */
+section .article img {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;         /* Espacio entre artículo e imagen */
+}
