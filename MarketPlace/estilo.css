@@ -1,0 +1,306 @@
+* {
+  font-family: sans-serif;
+}
+@media (max-width: 799px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+    color: #4186cb;
+  }
+  #linksTop {
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 8px;
+  }
+  #linksTop a {
+    color: rgb(52, 114, 200);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  #linksTop a + a {
+    border-left: 2px solid black;
+    padding-left: 5px;
+  }
+  #banner {
+    margin-top: -12px;
+    background-image: url("marketplace.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    color: white;
+  }
+  #name {
+    margin-left: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+  }
+  #slogan {
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size: 0.7em;
+  }
+  #home {
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  #home a {
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    text-decoration: none;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin: 0 0.5px;
+    padding: 18px;
+  }
+  #izquierda {
+    float: left;
+    width: 18%;
+    display: none;
+  }
+  #centro {
+    float: left;
+    width: 60%;
+  }
+  #derecha {
+    float: left;
+    width: 20%;
+    display: none;
+  }
+  h4 {
+    color: rgb(117, 117, 117);
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  #sidebar .uno {
+    border-top: 1px solid gray;
+  }
+  #sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #4186cb;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(192, 190, 190);
+  }
+  .titulo {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: rgb(150, 150, 150);
+    display: block;
+    border-bottom: 1px solid lightgray;
+  }
+  .subtitulo {
+    font-size: 0.8em;
+  }
+  .pie {
+    background-color: rgb(237, 237, 237);
+    padding-bottom: 6px;
+    padding-top: 6px;
+    font-size: 0.8em;
+  }
+  .pie a {
+    margin: 4px;
+    padding-right: 5px;
+    border-right: 2px solid black;
+  }
+  p {
+    color: rgb(103, 103, 103);
+    font-size: 14px;
+  }
+  input {
+    width: 58%;
+  }
+  .sup {
+    margin-left: 15px;
+  }
+  footer {
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    height: 15%;
+  }
+  footer div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .design span {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 30px;
+    margin-left: 0px;
+  }
+  .menuFot a {
+    color: rgb(103, 103, 103);
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 0 5px;
+    margin: 0;
+    border-right: 2px solid black;
+  }
+}
+@media (min-width: 800px) {
+  body {
+    width: 70%;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+    color: #4186cb;
+  }
+  #linksTop {
+    background-color: rgb(243, 243, 243);
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 8px;
+  }
+  #linksTop a {
+    color: rgb(52, 114, 200);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  #linksTop a + a {
+    border-left: 2px solid black;
+    padding-left: 5px;
+  }
+  #banner {
+    margin-top: -12px;
+    background-image: url("marketplace.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    color: white;
+  }
+  #name {
+    margin-left: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+  }
+  #slogan {
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size: 0.7em;
+  }
+  #home {
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  #home a {
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    text-decoration: none;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin: 0 0.5px;
+    padding: 18px;
+  }
+  #izquierda {
+    float: left;
+    width: 18%;
+    margin-right: 5px;
+  }
+  #centro {
+    float: left;
+    width: 60%;
+  }
+  #derecha {
+    float: left;
+    width: 20%;
+  }
+  h4 {
+    color: rgb(117, 117, 117);
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  #sidebar .uno {
+    border-top: 1px solid gray;
+  }
+  #sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #4186cb;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(192, 190, 190);
+  }
+  .titulo {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: rgb(150, 150, 150);
+    display: block;
+    border-bottom: 1px solid lightgray;
+  }
+  .subtitulo {
+    font-size: 0.8em;
+  }
+  .pie {
+    background-color: rgb(237, 237, 237);
+    padding-bottom: 6px;
+    padding-top: 6px;
+    font-size: 0.8em;
+  }
+  .pie a {
+    margin: 4px;
+    padding-right: 5px;
+    border-right: 2px solid black;
+  }
+  p, .design, .fecha{
+    color: rgb(103, 103, 103);
+    font-size: 14px;
+  }
+  input {
+    width: 58%;
+  }
+  .sup {
+    margin-left: 15px;
+  }
+  footer {
+    clear: both;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    height: 15%;
+  }
+  footer div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .design, .fecha{
+    padding: 0 10px;
+  }
+  .design span{
+        color: rgb(103, 103, 103);
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  .menuFot a {
+    color: rgb(103, 103, 103);
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 0 5px;
+    margin: 0;
+    border-right: 2px solid black;
+  }
+}
